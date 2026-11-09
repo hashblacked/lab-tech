@@ -1,0 +1,12 @@
+{
+  "description": "Premium AI-driven Facebook News automation with visual analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "name": "BroadcastHub V25",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

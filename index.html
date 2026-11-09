@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BroadcastHub V25</title>
+  <meta name="description" content="Premium AI-driven Facebook News automation with visual analysis.">
+  <meta property="og:title" content="BroadcastHub V25">
+  <meta property="og:description" content="Premium AI-driven Facebook News automation with visual analysis.">
+  <script>
+    (function() {
+      try {
+        var _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+        Object.defineProperty(window, 'fetch', {
+          get: function() { return _fetch; },
+          set: function(val) { _fetch = val; },
+          configurable: true,
+          enumerable: true
+        });
+      } catch (e) {
+        try {
+          var _protoFetch = Window.prototype.fetch;
+          Object.defineProperty(Window.prototype, 'fetch', {
+            get: function() { return _protoFetch; },
+            set: function(val) { _protoFetch = val; },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e2) {}
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+Bengali:wght@400;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', 'Noto Sans Bengali', sans-serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="bg-[#020617] text-slate-100 antialiased selection:bg-blue-500/30">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
